@@ -30,6 +30,10 @@
 
 1. [Váriaveis](/3-Basico/1-PrimeirosPassos.md)
 
+<b>Status do Projeto</b> 
+- [x] Em elaboração
+- [ ] Concluído
+
 ## Autores
 
 - **João Paulo Lima (jpaulohe4rt)** - _Developer & Founder of He4rt Developers_ - [Twitter](https://twitter.com/jpaulohe4rt)
