@@ -28,7 +28,7 @@
 
 ### Módulo Básico
 
-1. [Váriaveis](/3-Basico/1-PrimeirosPassos.md)
+1. [Primeiros Passos](/3-Basico/1-PrimeirosPassos.md)
 
 <b>Status do Projeto</b> 
 - [x] Em elaboração
