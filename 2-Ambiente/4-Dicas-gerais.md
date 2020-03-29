@@ -13,6 +13,6 @@ Para auxiliar no seu aprendizado e fortalecer no conteúdo:
 7. Kernighan, Brian W; Ritchie, Dennis M.,. C, a linguagem de programacao: Padrao ansi. Rio de janeiro: Campus
 9. Farrer, Harry. Programação estruturada de computadores: algoritmos estruturados. Rio de Janeiro: Guanabara Dois, 2002.
 
-2Exercícios: 
+2.Exercícios: 
 
 O [URI Online Jugde](https://www.urionlinejudge.com.br/judge/pt/login) é uma ótima plataforma para você fazer exercicios relacionados a linguagem C e as demais.

@@ -28,12 +28,7 @@
 
 ### Módulo Básico
 
-1. [Váriaveis](/3-Basico/1-Variaveis.md)
-
-
-### Bibliografia
-
-1. [Livros](/4-Bibligrafia/1-Livros)
+1. [Váriaveis](/3-Basico/1-PrimeirosPassos.md)
 
 ## Autores
 
