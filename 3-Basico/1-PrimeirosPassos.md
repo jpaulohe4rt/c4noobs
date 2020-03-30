@@ -34,3 +34,15 @@ int main()
     ...
 }
 ```
+### Mais um exemplo de um programa em C 
+
+```
+#include <stdio.h>
+
+int main()
+{
+    printf("HelloWorld\n");
+
+    return 0;
+}
+```

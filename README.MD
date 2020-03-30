@@ -25,14 +25,24 @@
 2. [Ambiente Windows](/2-Ambiente/2-Ambiente-windows.md)
 3. [Ambiente Linux](/2-Ambiente/3-Ambiente-linux.md)
 4. [Dicas Gerais](/2-Ambiente/4-Dicas-gerais.md)
+5. [Ambiente Online](/2-Ambiente/5-Ambiente-online.md)
 
 ### Módulo Básico
 
-1. [Váriaveis](/3-Basico/1-PrimeirosPassos.md)
+1. [Primeiros Passos](/3-Basico/1-PrimeirosPassos.md)
+2. [Declaração de Variáveis e Funções](/3-Basico/2-DeclaracaoDeVar)
+3. [Variáveis](/3-Basico/3-Variaveis.md)
 
-<b>Status do Projeto</b> 
-- [x] Em elaboração
-- [ ] Concluído
+## Como Contribuir
+
+Contribuições fazem com que a comunidade open source seja um lugar incrível para aprender, inspirar e criar. Todas contribuições
+são **extremamente apreciadas**
+
+1. Realize um Fork do projeto
+2. Crie um branch com a nova feature (`git checkout -b feature/featureBraba`)
+3. Realize o Commit (`git commit -m 'Add some featureBraba'`)
+4. Realize o Push no Branch (`git push origin feature/featureBraba`)
+5. Abra um Pull Request
 
 ## Autores
 
