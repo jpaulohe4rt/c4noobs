@@ -30,8 +30,11 @@
 ### Módulo Básico
 
 1. [Primeiros Passos](/3-Basico/1-PrimeirosPassos.md)
+<<<<<<< HEAD
 2. [Declaração de Variáveis e Funções](/3-Basico/2-DeclaracaoDeVar)
 3. [Variáveis](/3-Basico/3-Variaveis.md)
+=======
+>>>>>>> bc6272da0c1486543101c65601e3726a5ddd4671
 
 ## Como Contribuir
 
