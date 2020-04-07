@@ -1,4 +1,4 @@
-## 3.1 Primeiros Passos
+# 3.1 Primeiros Passos
 
 Programas em C consitem em uma ou mais partes que declaramos como funções e com a extensão do arquivo em .c como está representado na imagem a baixo.
 

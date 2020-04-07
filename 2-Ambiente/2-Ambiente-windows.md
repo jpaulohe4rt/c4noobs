@@ -1,4 +1,4 @@
-## 2.2 Instalação Windowns
+# 2.2 Instalação Windowns
 
 Para a instalação no windowns basta você baixar o arquivo no site [Vscode](https://code.visualstudio.com/) baixar e instalar o VSCode, para Windowns.
 

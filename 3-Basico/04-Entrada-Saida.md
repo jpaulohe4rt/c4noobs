@@ -1,4 +1,4 @@
-## 3.4 Entrada e Saída.
+# 3.4 Entrada e Saída.
 
 Para que um programa em C mostre alguns resultados, ou que o programa peça algum tipo de dado ao usúario, precisamos utilizar funções existes em C que são chamadas de **printf()** e **scanf().**. lembrando que é necessário ulitizar no início do programa : **#include**
 

@@ -1,4 +1,4 @@
-## 3.3 Variáveis
+# 3.3 Variáveis
 
 Variável é uma referência de um valor que é armazenado na memória do sistema.
 Ela pode ter o seu conteúdo alterado por um comando de atribuição.

@@ -1,4 +1,4 @@
-## 2.4 Dicas Gerais
+# 2.4 Dicas Gerais
 
 1.Bibliografia
 

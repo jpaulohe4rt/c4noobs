@@ -1,4 +1,4 @@
-## 3.2 Declaração de Variáveis e Funções
+# 3.2 Declaração de Variáveis e Funções
 
 Para declarar Variáreis e Funções precisamos seguir alguns requisitos essenciais para manter o nosso código limpo e claro.
 

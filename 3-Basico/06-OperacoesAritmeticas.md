@@ -1,4 +1,4 @@
-<h1>Operadores Aritimeticos</h1>
+<h1>Operadores Aritmeticos</h1>
 Os operadores matemáticos são de importância fundamental para qualquer tipo de linguagem de programação. Eles são os operadores de adição, subtração, multiplicação, divisão, mod (resto), incremento e decremento.
 
 
