@@ -8,4 +8,4 @@ A minha recomendação é o site [glot.io](glot.io), você pode escrever, compil
     <img src="https://i.imgur.com/tZsaBwN.png">
 </p>
 
-Basta criar uma conta e clicar no símbolo da linguagem C e começar.
+Basta criar uma conta, clicar no símbolo da linguagem C e começar.
