@@ -12,7 +12,7 @@ A função **printf()** exibe um ou mais dados na tela. contudo ele deve receber
 #### Exemplos:
 para imprimir string:
 
-```
+```c
 printf("%s, "linguagemc");
 ```
 "%s": é a strinf de formato
@@ -20,13 +20,13 @@ printf("%s, "linguagemc");
 
 - É possível incluir um texto dentro de uma variável string de formotado e será compilado de acordo com o que foi digitado no programa.
 
-``` 
+```c
     printf("O jogador %s machucou o tornozelo", "Neymar");
 ```
 
 Depois de ser compilado o resultado é:
 
-```
+```c
     O jogador Neymr machucou o tornozelo
 ```
 
@@ -60,7 +60,7 @@ A função é similar à printf, os caracteres obtidos pelo **scanf()** são rea
 este comando efetua uma leitura do teclado onde é esperada uma variável e o valor lido será armazenado no endereço da variável do programa. para ficar mais claro segue o exemplo:
 
 
-```
+```c
 #include <stdio.h>
 
 int main(){

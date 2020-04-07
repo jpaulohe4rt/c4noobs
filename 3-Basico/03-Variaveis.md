@@ -4,7 +4,7 @@ Variável é uma referência de um valor que é armazenado na memória do sistem
 Ela pode ter o seu conteúdo alterado por um comando de atribuição.
 Depois da atribuição feito pelo comando elas mudam de valor.
 
-```
+```c
 int a,b, SomaGeral;
 a = 3; // a recebe o valor 3
 b = a * 2; // b recebe o dobro do valor de a 
@@ -28,7 +28,7 @@ c = a + b + 2; // c recebe 11
 - Devem ser declaradas antes de serem usadas
 - Não há uma inicialização implícita na declaração
 
-```
+```c
 #include <stdio.h> // Inicialização do arquivo de cabeçalho 
 
 void main()
@@ -47,7 +47,7 @@ void main()
 ```
 ### Como inicializar uma variável de declaração
 
-```
+```c
 #include <stdio.h> // Inicialização do arquivo de cabeçalho 
 void main()
 { 

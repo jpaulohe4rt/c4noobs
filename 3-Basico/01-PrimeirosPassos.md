@@ -19,7 +19,7 @@ Para adicionar um comentário em seu  programa inicie a linha com /* e termine o
 ```
 Um programa C tem a seguinte estrutural geral:
 
-```
+```c
 #include <stdio.h>
 
 definição das declarações
@@ -36,7 +36,7 @@ int main()
 ```
 ### Mais um exemplo de um programa em C 
 
-```
+```c
 #include <stdio.h>
 
 int main()
