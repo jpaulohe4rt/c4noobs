@@ -37,7 +37,7 @@
 06. [Operações Aritmeticas](/3-Basico/06-OperacoesAritmeticas.md)
 07. [Funções](/3-Basico/07-Funcoes.md)
 08. [Arrays](/3-Basico/08-Arrays.md)
-09. [Operadores Lógicos](/3-Basico/09-Operadores-Logicos)
+09. [Operadores Lógicos](/3-Basico/09-Operadores-Logicos.md)
 10. [Switch e Break](/3-Basico/10-SwitchBreak.md)
 11. [Estruturas de Repetição](/3-Basico/11-EstruturasDeRepeticao.md)
 12. [Matrizes](/3-Basico/12-Matrizes.md)
