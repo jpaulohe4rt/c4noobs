@@ -132,3 +132,38 @@ int main() {
 ```
 
 **Obs**: Operações entre parenteses seram resolvidas primeiro, e depois de multiplicação, divisão e módulo.
+
+
+<h2>Operações resumidas</h2>
+
+Se uma variável for subtrair uma variável com 1, pode-se fazer das seguintes maneiras:
+
+```c
+int x = 10;
+printf("%d\n", x);
+
+x = x - 1; //funciona com qualquer valor, nao somente 1
+printf("%d\n", x);
+
+x -= 1; //funciona com qualquer valor nao somente 1
+printf("%d\n", x);
+
+x--; //subtrai somente 1 da variavel.
+printf("%d\n", x);
+```
+<hr>
+Se uma variável for somar uma variável com 1, pode-se fazer das seguintes maneiras:
+
+```c
+int x = 10;
+printf("%d\n", x);
+
+x = x + 1; //funciona com qualquer valor, nao somente 1
+printf("%d\n", x);
+
+x += 1; //funciona com qualquer valor nao somente 1
+printf("%d\n", x);
+
+x++; //soma somente 1 da variavel.
+printf("%d\n", x);
+```
