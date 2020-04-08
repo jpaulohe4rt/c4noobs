@@ -41,6 +41,7 @@
 10. [Switch e Break](/3-Basico/10-SwitchBreak.md)
 11. [Estruturas de Repetição](/3-Basico/11-EstruturasDeRepeticao.md)
 12. [Matrizes](/3-Basico/12-Matrizes.md)
+13. [Ponteiros](/3-Basico/13-Ponteiros.md)
 
 ## Como Contribuir
 
