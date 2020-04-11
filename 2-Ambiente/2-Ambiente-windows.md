@@ -1,6 +1,6 @@
 # 2.2 Instalação Windowns
 
-Instale o gerenciador de pacotes [Chocolatey](https://chocolatey.org/courses/installation/installing?method=installing-chocolatey?quiz=true#cmd) (leia os requisitos!!!!) e rode:
+Instale o gerenciador de pacotes [Chocolatey](https://chocolatey.org/courses/installation/installing?method=installing-chocolatey?quiz=true#install-requirements) (leia os requisitos!!!!) e rode:
 
 `choco install vscode mingw`
 
@@ -15,6 +15,7 @@ Para a instalação no Windows basta você baixar o instalador no site [Vscode](
 Depois de ter baixado o VSCode, você deve ir até Extensões (Ctrl+Shift+X) e instalar as seguintes extensões:
 
 1.C/C++
+
 <p align="center">
     <img src="https://i.imgur.com/2mooTDY.png" alt="C/C++">
 </p>
