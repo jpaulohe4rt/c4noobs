@@ -1,6 +1,12 @@
 # 2.2 Instalação Windowns
 
-Para a instalação no windowns basta você baixar o arquivo no site [Vscode](https://code.visualstudio.com/) baixar e instalar o VSCode, para Windowns.
+Instale o gerenciador de pacotes [Chocolatey](https://chocolatey.org/courses/installation/installing?method=installing-chocolatey?quiz=true#cmd) (leia os requisitos!!!!) e rode:
+
+`choco install vscode mingw`
+
+Ou instale manualmente:
+
+Para a instalação no Windows basta você baixar o instalador no site [Vscode](https://code.visualstudio.com/) e instalar o VSCode.
 
 <p align="center">
     <img src="https://i.imgur.com/QJYna1V.png" width="120" >
