@@ -1,6 +1,6 @@
 # 2.2 Instalação Windowns
 
-Instale o gerenciador de pacotes [Chocolatey](https://chocolatey.org/courses/installation/installing?method=installing-chocolatey?quiz=true#install-requirements) (leia os requisitos!!!!) e rode:
+Instale o gerenciador de pacotes [Chocolatey](https://chocolatey.org/docs/installation) (leia os requisitos!!!!) e rode:
 
 `choco install vscode mingw`
 
