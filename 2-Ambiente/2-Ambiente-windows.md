@@ -1,4 +1,5 @@
-# 2.2 Instalação Windowns
+# 2.2 Instalação Windows
+
 
 Instale o gerenciador de pacotes [Chocolatey](https://chocolatey.org/docs/installation) (leia os requisitos!!!!) e rode como administrador:
 
