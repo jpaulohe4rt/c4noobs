@@ -1,6 +1,6 @@
 <h1>Funções</h1>
 
-As funções são maneiras de fazer um código seperado da funçao principal, com a ideia de modularizar o código e fazer com que ele ficasse distribuido.
+As funções são maneiras de fazer um código seperado da função principal, com a ideia de modularizar o código e fazer com que ele ficasse distribuido.
 
 Para declarar uma função é necessário colocar o tipo dela, e o nome na frente, seguido de parênteses com parâmetros (variáveis enviadas na chamada da função) e fazer um escopo de bloco com chaves. 
 
@@ -22,7 +22,7 @@ int soma(int a, int b) { //função do tipo inteiro que recebe duas variaveis in
 
 //como a função é do tipo inteiro ela deve retornar algo inteiro.
 
-//o retorno é que quando voce chamar a função irá aparecer ele no lugar, entao vai aparecer a soma de dois valores passados.
+//o retorno é que quando você chamar a função irá aparecer ele no lugar, então vai aparecer a soma de dois valores passados.
     return a + b;
 }
 
@@ -60,7 +60,7 @@ int soma(int a, int b) { //função do tipo inteiro que recebe duas variaveis in
 
 //como a função é do tipo inteiro ela deve retornar algo inteiro.
 
-//o retorno é que quando voce chamar a função irá aparecer ele no lugar, entao vai aparecer a soma de dois valores passados.
+//o retorno é que quando você chamar a função irá aparecer ele no lugar, então vai aparecer a soma de dois valores passados.
     return a + b;
 }
 

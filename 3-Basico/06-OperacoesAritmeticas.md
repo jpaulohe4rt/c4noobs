@@ -107,7 +107,7 @@ int main() {
 
 <h2> Operador de Mod </h2>
 
-Esse operador retorna o resto de de uma divisão. O exemplo a baixo fica mais simples de entender.
+Esse operador retorna o resto de uma divisão. O exemplo abaixo fica mais simples de entender.
 
 ```c
 #include <stdio.h>
@@ -131,7 +131,7 @@ int main() {
 }
 ```
 
-**Obs**: Operações entre parenteses seram resolvidas primeiro, e depois de multiplicação, divisão e módulo.
+**Obs**: Operações entre parênteses serão resolvidas primeiro, e depois de multiplicação, divisão e módulo.
 
 
 <h2>Operações resumidas</h2>

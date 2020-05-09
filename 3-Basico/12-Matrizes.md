@@ -7,7 +7,7 @@ Declaração de Matrizes:
 
 ```c
 int Vetor[5]; // declara um vetor de 5 posições
-int Matriz[5][3]; // declara uma matriz de 5 linhas e 3 colunas
+int Matriz[4][4]; // declara uma matriz de 4 linhas e 4 colunas
 ```
 Preencimento de uma matriz 4x4:
 

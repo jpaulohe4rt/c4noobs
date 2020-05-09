@@ -6,7 +6,7 @@ Na liguagem C existem três comandos de repetição: while, do-while e for.
 
 ### While 
 
-O While é uma estrutura que inicia olhando a condição de parada condição de parada, se a condição de parada já tiver sido atingida não entra no bloco de repetição, se não tiver atingido a condição de parada roda o que tem dentro das chaves e depois verifica a condição novamente. A variável que vai gerar a condição de parada precisa ser criada fora da estrutura.
+O While é uma estrutura que inicia olhando a condição de parada, se a condição de parada já tiver sido atingida não entra no bloco de repetição, se não tiver atingido a condição de parada roda o que tem dentro das chaves e depois verifica a condição novamente. A variável que vai gerar a condição de parada precisa ser criada fora da estrutura.
 
 ```c
 #include <stdio.h>
@@ -56,7 +56,7 @@ int main(void)
 
 ### Do/While
 
-O do/while é uma estrutura que inicia sem olhar nenuma condição de parada, roda o que tem dentro das chaves e depois verifica a condição. A variável que vai gerar a condição de parada precisa ser criada fora da estrutura.
+O do/while é uma estrutura que inicia sem olhar nenhuma condição de parada, roda o que tem dentro das chaves e depois verifica a condição. A variável que vai gerar a condição de parada precisa ser criada fora da estrutura.
 
 ```c
 #include <stdio.h>

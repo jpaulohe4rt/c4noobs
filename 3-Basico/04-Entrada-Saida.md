@@ -1,6 +1,6 @@
 # 3.4 Entrada e Saída.
 
-Para que um programa em C mostre alguns resultados, ou que o programa peça algum tipo de dado ao usúario, precisamos utilizar funções existes em C que são chamadas de **printf()** e **scanf().**. lembrando que é necessário ulitizar no início do programa : **#include**
+Para que um programa em C mostre alguns resultados, ou que o programa peça algum tipo de dado ao usúario, precisamos utilizar funções existentes em C que são chamadas de **printf()** e **scanf().**. lembrando que é necessário utilizar no início do programa : **#include**
 
 #### printf()
 
@@ -13,12 +13,12 @@ A função **printf()** exibe um ou mais dados na tela. contudo ele deve receber
 para imprimir string:
 
 ```c
-printf("%s, "linguagemc");
+printf("%s", "linguagemc");
 ```
-"%s": é a strinf de formato
-"teste": é o dado que vai ser impresso
+"%s": é a string de formato
+"linguagemc": é o dado que vai ser impresso
 
-- É possível incluir um texto dentro de uma variável string de formotado e será compilado de acordo com o que foi digitado no programa.
+- É possível incluir um texto dentro de uma variável string de formato %s e será compilado de acordo com o que foi digitado no programa.
 
 ```c
     printf("O jogador %s machucou o tornozelo", "Neymar");
@@ -27,7 +27,7 @@ printf("%s, "linguagemc");
 Depois de ser compilado o resultado é:
 
 ```c
-    O jogador Neymr machucou o tornozelo
+    O jogador Neymar machucou o tornozelo
 ```
 
 Você também pode inserir códigos especiais e alguns tipos de formatação no **printf()**.
@@ -57,7 +57,7 @@ Você também pode inserir códigos especiais e alguns tipos de formatação no 
 #### scanf()
 
 A função é similar à printf, os caracteres obtidos pelo **scanf()** são realizados pelo teclado,
-este comando efetua uma leitura do teclado onde é esperada uma variável e o valor lido será armazenado no endereço da variável do programa. para ficar mais claro segue o exemplo:
+este comando efetua uma leitura do teclado onde é esperada uma variável e o valor lido será armazenado no endereço da variável do programa. Para ficar mais claro segue o exemplo:
 
 
 ```c

@@ -8,7 +8,7 @@ Um ponteiro é quando você reserva uma posição de memória que armazena uma q
 
 <img src="../images/TiposPrimitivos.png">
 
-Cada tipo de variável tem um gasto na memória ram do seu computador, um porteiro armazena um tamanho necessário para receber esse tipo. O ponteiro ele contém o endereço de memória que foi reservado para fazer sua alocação.
+Cada tipo de variável tem um gasto na memória ram do seu computador, um ponteiro armazena um tamanho necessário para receber esse tipo. O ponteiro contém o endereço de memória que foi reservado para fazer sua alocação.
 
 Exemplo inicial:
 
