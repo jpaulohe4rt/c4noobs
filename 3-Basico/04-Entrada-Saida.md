@@ -1,38 +1,38 @@
 # 3.4 Entrada e Saída.
 
-Para que um programa em C mostre alguns resultados, ou que o programa peça algum tipo de dado ao usúario, precisamos utilizar funções existentes em C que são chamadas de **printf()** e **scanf().**. lembrando que é necessário utilizar no início do programa : **#include**
+Para que um programa em C mostre alguns resultados, ou que o programa peça algum tipo de dado ao usúario, precisamos utilizar funções existentes em C que são chamadas de **printf()** e **scanf()**. Lembrando que, é necessário utilizar no início do programa : **#include <stdio.h>** para que essas funções possam ser utilizadas.
 
-#### printf()
+## printf()
 
 A função **printf()** exibe um ou mais dados na tela. contudo ele deve receber pelo menos dois parâmetros, separados por vírgula.
 
 - Uma string que define, através de caracteres especiais, os dados a serem impressos e a suas posições na linha da impressão ou um dado a ser impresso.
 
 
-#### Exemplos:
-para imprimir string:
+### Exemplos:
+Para imprimir string:
 
 ```c
-printf("%s", "linguagemc");
+printf("%s", "linguagemC");
 ```
 "%s": é a string de formato
-"linguagemc": é o dado que vai ser impresso
+"linguagemC": é o dado que vai ser impresso
 
 - É possível incluir um texto dentro de uma variável string de formato %s e será compilado de acordo com o que foi digitado no programa.
 
 ```c
-    printf("O jogador %s machucou o tornozelo", "Neymar");
+printf("O jogador %s machucou o tornozelo", "Neymar");
 ```
 
 Depois de ser compilado o resultado é:
 
 ```c
-    O jogador Neymar machucou o tornozelo
+O jogador Neymar machucou o tornozelo
 ```
 
 Você também pode inserir códigos especiais e alguns tipos de formatação no **printf()**.
 
-### Tabela de Códigos Especiais:
+## Tabela de Códigos Especiais:
 
 |Código Especiais | Significado |
 |-----------------| ------------
@@ -42,7 +42,7 @@ Você também pode inserir códigos especiais e alguns tipos de formatação no 
 | \\\ | Barra invertida |
 | \\" | Aspas duplas|
 
-### Tabela de Formatação 
+## Tabela de Formatação 
 
 |Código Especiais | Significado |
 |-----------------| ------------|
@@ -53,8 +53,9 @@ Você também pode inserir códigos especiais e alguns tipos de formatação no 
 | %% | Imprime um caractere % |
 | %ld | Imprime um número inteiro longo com sinal |
 | %p | ponteiro (endereço da memória) |
+[Mais detalhes sobre formatação](http://www.cplusplus.com/reference/cstdio/printf/)
 
-#### scanf()
+## scanf()
 
 A função é similar à printf, os caracteres obtidos pelo **scanf()** são realizados pelo teclado,
 este comando efetua uma leitura do teclado onde é esperada uma variável e o valor lido será armazenado no endereço da variável do programa. Para ficar mais claro segue o exemplo:
@@ -63,7 +64,7 @@ este comando efetua uma leitura do teclado onde é esperada uma variável e o va
 ```c
 #include <stdio.h>
 
-int main(){
+int main(void){
     int a, b, soma; // declaração das variáveis de tipo inteiro
 
     printf("Digite um numero inteiro: ");
@@ -76,7 +77,6 @@ int main(){
   
     printf("O valor da soma = %d\n", soma); //Mostra mensagem com o resultado
   
-
     return 0;
 }
 ```
