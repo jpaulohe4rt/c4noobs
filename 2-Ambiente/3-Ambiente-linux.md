@@ -1,6 +1,6 @@
 # 2.3 Instalação Linux
 
-Para a instalação no windowns basta você baixar o arquivo no site [VSCODE](https://code.visualstudio.com/) baixar e instalar o VSCode, para Linux.
+Para a instalação no Linux basta você baixar o arquivo no site [VSCode](https://code.visualstudio.com/) baixar e instalar o VSCode, para Linux.
 
 <p align="center">
     <img src="https://i.imgur.com/QJYna1V.png" width="120" >

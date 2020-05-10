@@ -4,22 +4,24 @@ Os comandos de repetição são um recurso que permite que um certo trecho do c�
 
 Na liguagem C existem três comandos de repetição: while, do-while e for.
 
-### While 
+## While 
 
-O While é uma estrutura que inicia olhando a condição de parada, se a condição de parada já tiver sido atingida não entra no bloco de repetição, se não tiver atingido a condição de parada roda o que tem dentro das chaves e depois verifica a condição novamente. A variável que vai gerar a condição de parada precisa ser criada fora da estrutura.
+O **while** é uma estrutura que inicia **olhando a condição de parada**, se a condição de parada já tiver sido atingida não entra no bloco de repetição, se não tiver atingido a condição de parada roda o que tem dentro das chaves e depois verifica a condição novamente. A variável que vai gerar a condição de parada precisa ser criada fora da estrutura.
 
 ```c
 #include <stdio.h>
+
 int main(void)
 {
-  int contador = 1; //declarando e inicializando a variável de controle
-  
-  while (contador <= 10) // Testando a condição
-  {
-    printf("%d ", contador); //Executando um comando dentro do laço
+    int contador = 1; //declarando e inicializando a variável de controle
     
-    contador++; //atualizando a variável de controle
-  }  
+    while (contador <= 10) // Testando a condição
+    {
+        printf("%d ", contador); //Executando um comando dentro do laço
+
+        contador++; //atualizando a variável de controle
+    }
+    printf("\n");
   
   return 0;
 }
@@ -29,9 +31,9 @@ int main(void)
     <img src="https://i.imgur.com/X600Nwh.png"  >
 </p>
 
-### For
+## For
 
-O For é uma estrutura de repetição mais compacta, na qual, o bloco já determina aonde começa, a condição de parada e o passo dela (que é como essa variável se comportará para atingir a condição de parada), não é necessário declarar a váriavel antes, ela pode ser criada ao criar o for.
+O **for** é uma estrutura de repetição mais compacta, na qual, o bloco já determina **onde começa**, a **condição de parada** e o **passo dela** (que é como essa variável se comportará para atingir a condição de parada), não é necessário declarar a váriavel antes, ela pode ser criada ao criar o for.
 
 ```c
 //Exemplo1: Programa usando loop for em C
@@ -39,12 +41,13 @@ O For é uma estrutura de repetição mais compacta, na qual, o bloco já determ
 
 int main(void)
 {
-  int contador; //variável de controle do loop
-  
-  for(contador = 1; contador <= 20; contador++)
-  {
-    printf("%d ", contador);
-  }
+    int contador; //variável de controle do loop
+    
+    for(contador = 1; contador <= 20; contador++)
+    {
+        printf("%d ", contador);
+    }
+    printf("\n");
   
   return(0);
 }
@@ -54,15 +57,16 @@ int main(void)
 <img src="https://i.imgur.com/DAmRXIe.png">
 </p>
 
-### Do/While
+## Do/While
 
-O do/while é uma estrutura que inicia sem olhar nenhuma condição de parada, roda o que tem dentro das chaves e depois verifica a condição. A variável que vai gerar a condição de parada precisa ser criada fora da estrutura.
+O **do/while** é uma estrutura que inicia **sem olhar nenhuma condição de parada**, roda o que tem dentro das chaves e **depois verifica** a condição. A variável que vai gerar a condição de parada precisa ser criada fora da estrutura.
 
 ```c
 #include <stdio.h>
+
 int main(void)
 {
-  float nota1=0,nota2=0,media=0;
+  float nota1 = 0, nota2 = 0, media = 0;
   int resp;
   
   do
@@ -81,6 +85,7 @@ int main(void)
   }while (resp==1);
   
   return 0;
+}
 ```
 ### Saída
 
