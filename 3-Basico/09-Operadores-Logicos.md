@@ -2,14 +2,13 @@
 
 Os operadores lógicos são utilizados quando é necessário usar duas ou mais condições dentro da mesma instrução if para que seja tomada uma única decisão cujo resultado será verdadeiro ou falso.
 
-| Operadores Lógicos| Significado |
+| Operadores Lógicos | Significado |
 |-----------------|----------------|
-| && | E |
-| ! | não |
+| &&    | e |
+| !     | não |
+| \|\|  | ou |
 
-E || para OU.
-
-Se você conhece algum tipo de logica de programação, já entendeu como eles funcionam, mas para esclarecer entrarei em mais detalhes.
+Se você conhece algum tipo de logica de programação, já entende como eles funcionam, mas para esclarecer entrarei em mais detalhes.
 
 | Operadores de Comparação |  Significado |
 | ----------------------- | ------------ |
@@ -20,4 +19,25 @@ Se você conhece algum tipo de logica de programação, já entendeu como eles f
 | == | igual |
 | != | não igual (diferente) |
 
-Esses Operadores são como na matemática, é possível comparar valores na programação também, e os operadores lógicos entram nessa brincadeira também.
+Esses operadores são como na matemática, é possível comparar valores na programação também, e os operadores lógicos entram nessa brincadeira também.
+
+Exemplos:
+```c
+#include <stdio.h>
+
+int main(void) {
+
+    int idade;
+
+    printf("Qual a sua idade? ");
+    scanf("%d", &idade);
+
+    if (idade >= 18) {
+        printf("Você pode assistir esse filme\n");
+    }
+    else {
+        printf("Você não tem idade suficiente para poder assistir esse filme\n");
+    }
+
+}
+```

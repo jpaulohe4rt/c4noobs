@@ -1,15 +1,16 @@
 # 2.2 Instalação Windows
 
+## Utilizando Chocolatey:
 
-Instale o gerenciador de pacotes [Chocolatey](https://chocolatey.org/docs/installation) (leia os requisitos!!!!) e rode como administrador:
+Instale o gerenciador de pacotes [Chocolatey](https://chocolatey.org/docs/installation) (leia os requisitos!!!!) e execute como administrador:
 
 (feche e reabra o shell após isso)
 
 `choco install vscode mingw`
 
-Ou instale manualmente:
+## Instalando Manualmente:
 
-Para a instalação no Windows basta você baixar o instalador no site [Vscode](https://code.visualstudio.com/) e instalar o VSCode.
+Para a instalação no Windows basta você baixar o instalador no site [VSCode](https://code.visualstudio.com/) e instalar o VSCode.
 
 <p align="center">
     <img src="https://i.imgur.com/QJYna1V.png" width="120" >
