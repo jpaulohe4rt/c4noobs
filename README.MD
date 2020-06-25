@@ -1,7 +1,7 @@
 # c4noobs
 
 <h1 align="center">
-  <img src="./images/c.png" alt="php" width="120">
+  <img src="./images/c.png" alt="c" width="120">
 </h1>
 
 <p align="center">Tutorial De C para iniciantes na Linguagem.</p>
