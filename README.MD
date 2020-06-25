@@ -1,7 +1,7 @@
 # c4noobs
 
 <h1 align="center">
-  <img src="./images/c.png" alt="php" width="120">
+  <img src="./images/c.png" alt="c" width="120">
 </h1>
 
 <p align="center">Tutorial De C para iniciantes na Linguagem.</p>
@@ -29,15 +29,15 @@
 
 ### Módulo Básico
 
-01. [Primeiros Passos](/3-Basico/01-PrimeirosPassos.md)
-02. [Declaração de Variáveis e Funções](/3-Basico/02-DeclaracaoDeVar.md)
-03. [Variáveis](/3-Basico/03-Variaveis.md)
-04. [Entrada e Saída](/3-Basico/04-Entrada-Saida.md)
-05. [Constantes](/3-Basico/05-Constantes.md)
-06. [Operações Aritmeticas](/3-Basico/06-OperacoesAritmeticas.md)
-07. [Funções](/3-Basico/07-Funcoes.md)
-08. [Arrays](/3-Basico/08-Arrays.md)
-09. [Operadores Lógicos](/3-Basico/09-Operadores-Logicos.md)
+1.  [Primeiros Passos](/3-Basico/01-PrimeirosPassos.md)
+2.  [Declaração de Variáveis e Funções](/3-Basico/02-DeclaracaoDeVar.md)
+3.  [Variáveis](/3-Basico/03-Variaveis.md)
+4.  [Entrada e Saída](/3-Basico/04-Entrada-Saida.md)
+5.  [Constantes](/3-Basico/05-Constantes.md)
+6.  [Operações Aritmeticas](/3-Basico/06-OperacoesAritmeticas.md)
+7.  [Funções](/3-Basico/07-Funcoes.md)
+8.  [Arrays](/3-Basico/08-Arrays.md)
+9.  [Operadores Lógicos](/3-Basico/09-Operadores-Logicos.md)
 10. [Switch e Break](/3-Basico/10-SwitchBreak.md)
 11. [Estruturas de Repetição](/3-Basico/11-EstruturasDeRepeticao.md)
 12. [Matrizes](/3-Basico/12-Matrizes.md)
@@ -56,7 +56,7 @@ são **extremamente apreciadas**
 
 ## Autores
 
-- **João Paulo Lima (jpaulohe4rt)** - _Developer & Member of He4rt Developers_  - [Twitter](https://twitter.com/jpaulohe4rt)
+- **João Paulo Lima (jpaulohe4rt)** - _Developer & Member of He4rt Developers_ - [Twitter](https://twitter.com/jpaulohe4rt)
 - **Paulo Rievrs Oliveira** - _Developer & Member of He4rt Developers_ - [Linkedin](https://www.linkedin.com/in/paulo-rievrs/) - [Github](www.github.com/paulorievrs)
 
 <p align="center">Made with 💜</p>
