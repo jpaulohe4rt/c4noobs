@@ -5,7 +5,7 @@ Um ponteiro é quando você reserva uma posição de memória que armazena uma q
 
 >Imagem retirada do repositório do <a href="github.com/hellowluan/">hellowluan</a>
 
-<img src="../images/TiposPrimitivos.png">
+<img src="../imgs/TiposPrimitivos.png">
 
 Cada tipo de variável tem um gasto na memória RAM do seu computador, um ponteiro armazena um tamanho necessário para receber esse tipo. O ponteiro contém o endereço de memória que foi reservado para fazer sua alocação, porém, para armazenar o ponteiro também teremos um gasto que será independente ao tipo de dado que iremos apontar, e será definido pela arquitetura do seu processador, se for x64, o tamanho do ponteiro será de 64 bits **(8 bytes)**, ou 32 bits **(4 bytes)** caso contrário. Podemos verificar essa afirmação com o operador **sizeof**
 

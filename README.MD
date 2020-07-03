@@ -8,7 +8,7 @@
   <h2 align="center">Markdown4Noobs</h2>
 
   <h1 align="center">
-  <img src="./images/c.png" alt="Imagem da Linguagem C" width="120">
+  <img src="./src/imgs/c.png" alt="Imagem da Linguagem C" width="120">
 </h1>
   
   <p align="center">
@@ -27,32 +27,32 @@
 
 ### Introdução
 
-1. [Boas Vindas](/1-Introducao/1-Boas-vindas.md)
-2. [Comunicação](/1-Introducao/2-Comunicacao.md)
+1. [Boas Vindas](/src/1-Introducao/1-Boas-vindas.md)
+2. [Comunicação](/src/1-Introducao/2-Comunicacao.md)
 
 ### Configuração de Ambiente
 
-1. [Editores de textos e plugins](/2-Ambiente/1-Editores-e-plugins.md)
-2. [Ambiente Windows](/2-Ambiente/2-Ambiente-windows.md)
-3. [Ambiente Linux](/2-Ambiente/3-Ambiente-linux.md)
-4. [Dicas Gerais](/2-Ambiente/4-Dicas-gerais.md)
-5. [Ambiente Online](/2-Ambiente/5-Ambiente-online.md)
+1. [Editores de textos e plugins](/src/2-Ambiente/1-Editores-e-plugins.md)
+2. [Ambiente Windows](/src/2-Ambiente/2-Ambiente-windows.md)
+3. [Ambiente Linux](/src/2-Ambiente/3-Ambiente-linux.md)
+4. [Dicas Gerais](/src/2-Ambiente/4-Dicas-gerais.md)
+5. [Ambiente Online](/src/2-Ambiente/5-Ambiente-online.md)
 
 ### Módulo Básico
 
-01. [Primeiros Passos](/3-Basico/01-PrimeirosPassos.md)
-02. [Declaração de Variáveis e Funções](/3-Basico/02-DeclaracaoDeVar.md)
-03. [Variáveis](/3-Basico/03-Variaveis.md)
-04. [Entrada e Saída](/3-Basico/04-Entrada-Saida.md)
-05. [Constantes](/3-Basico/05-Constantes.md)
-06. [Operações Aritmeticas](/3-Basico/06-OperacoesAritmeticas.md)
-07. [Funções](/3-Basico/07-Funcoes.md)
-08. [Arrays](/3-Basico/08-Arrays.md)
-09. [Operadores Lógicos](/3-Basico/09-Operadores-Logicos.md)
-10. [Switch e Break](/3-Basico/10-SwitchBreak.md)
-11. [Estruturas de Repetição](/3-Basico/11-EstruturasDeRepeticao.md)
-12. [Matrizes](/3-Basico/12-Matrizes.md)
-13. [Ponteiros](/3-Basico/13-Ponteiros.md)
+01. [Primeiros Passos](/src/3-Basico/01-PrimeirosPassos.md)
+02. [Declaração de Variáveis e Funções](/src/3-Basico/02-DeclaracaoDeVar.md)
+03. [Variáveis](/src/3-Basico/03-Variaveis.md)
+04. [Entrada e Saída](/src/3-Basico/04-Entrada-Saida.md)
+05. [Constantes](/src/3-Basico/05-Constantes.md)
+06. [Operações Aritmeticas](/src/3-Basico/06-OperacoesAritmeticas.md)
+07. [Funções](/src/3-Basico/07-Funcoes.md)
+08. [Arrays](/src/3-Basico/08-Arrays.md)
+09. [Operadores Lógicos](/src/3-Basico/09-Operadores-Logicos.md)
+10. [Switch e Break](/src/3-Basico/10-SwitchBreak.md)
+11. [Estruturas de Repetição](/src/3-Basico/11-EstruturasDeRepeticao.md)
+12. [Matrizes](/src/3-Basico/12-Matrizes.md)
+13. [Ponteiros](/src/3-Basico/13-Ponteiros.md)
 
 ## Como Contribuir
 
