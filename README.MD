@@ -1,15 +1,26 @@
-# c4noobs
-
-<h1 align="center">
-  <img src="./images/c.png" alt="c" width="120">
-</h1>
-
-<p align="center">Tutorial De C para iniciantes na Linguagem.</p>
+<p align="center">
+  <a href="https://github.com/he4rt/4noobs" target="_blank">
+    <img src="./.github/header-4noobs.svg">
+  </a>
+</p>
 
 <p align="center">
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
-  </a>
+  <h2 align="center">Markdown4Noobs</h2>
+
+  <h1 align="center">
+  <img src="./images/c.png" alt="Imagem da Linguagem C" width="120">
+</h1>
+  
+  <p align="center">
+    <a href="https://github.com/jpaulohe4rt/c4noobs/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/jpaulohe4rt/c4noobs/issues">Request Feature</a>
+  </p>
+</p>
+
+## Sobre o Projeto
+<p align="left">
+  O propósito desse repositório, além de contribuir para o projeto <a href="https://github.com/he4rt/4noobs">4noobs</a>, é ensinar o básico de C para iniciantes.
 </p>
 
 ## ROADMAP
@@ -60,3 +71,11 @@ são **extremamente apreciadas**
 - **Paulo Rievrs Oliveira** - _Developer & Member of He4rt Developers_ - [Linkedin](https://www.linkedin.com/in/paulo-rievrs/) - [Github](www.github.com/paulorievrs)
 
 <p align="center">Made with 💜</p>
+
+---
+
+<p align="center">
+  <a href="https://github.com/he4rt/4noobs" target="_blank">
+    <img src="./.github/footer-4noobs.svg" width="380">
+  </a>
+</p>
