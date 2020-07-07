@@ -1,10 +1,10 @@
 # 3.4 Entrada e Saída.
 
-Para que um programa em C mostre alguns resultados, ou que o programa peça algum tipo de dado ao usúario, precisamos utilizar funções existentes em C que são chamadas de **printf()** e **scanf()**. Lembrando que, é necessário utilizar no início do programa : **#include <stdio.h>** para que essas funções possam ser utilizadas.
+Para que um programa em C mostre alguns resultados, ou que o programa peça algum tipo de dado ao usúario, precisamos utilizar funções existentes em C que são chamadas de `printf()` e `scanf()`. Lembrando que, é necessário utilizar no início do programa : `#include <stdio.h>` para que essas funções possam ser utilizadas.
 
 ## printf()
 
-A função **printf()** exibe um ou mais dados na tela. contudo ele deve receber pelo menos dois parâmetros, separados por vírgula.
+A função `printf()` exibe um ou mais dados na tela. contudo ele deve receber pelo menos dois parâmetros, separados por vírgula.
 
 - Uma string que define, através de caracteres especiais, os dados a serem impressos e a suas posições na linha da impressão ou um dado a ser impresso.
 
@@ -15,10 +15,10 @@ Para imprimir string:
 ```c
 printf("%s", "linguagemC");
 ```
-"%s": é a string de formato
-"linguagemC": é o dado que vai ser impresso
+- "%s": é a string para resgatar o valor que vai ser impresso
+- "linguagemC": é o valor que vai ser impresso
 
-- É possível incluir um texto dentro de uma variável string de formato %s e será compilado de acordo com o que foi digitado no programa.
+É possível incluir um texto dentro de uma variável string de formato %s e será compilado de acordo com o que foi digitado no programa.
 
 ```c
 printf("O jogador %s machucou o tornozelo", "Neymar");
@@ -57,8 +57,7 @@ Você também pode inserir códigos especiais e alguns tipos de formatação no 
 
 ## scanf()
 
-A função é similar à printf, os caracteres obtidos pelo **scanf()** são realizados pelo teclado,
-este comando efetua uma leitura do teclado onde é esperada uma variável e o valor lido será armazenado no endereço da variável do programa. Para ficar mais claro segue o exemplo:
+A função é similar ao printf, os caracteres obtidos pelo **scanf()** são realizados pelo teclado. Este comando efetua uma leitura do teclado onde é esperada uma variável e o valor lido será armazenado no endereço da variável do programa. Para ficar mais claro segue o exemplo:
 
 
 ```c

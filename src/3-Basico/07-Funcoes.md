@@ -1,11 +1,11 @@
 # Funções
 
-As funções são maneiras de fazer um código seperado da função principal, com o intuito de modularizar o código e isolar as responsabilidades.
+As funções são maneiras de fazer um código separado da função principal, com o intuito de modularizar o código e isolar as responsabilidades.
 
 
 Para declarar uma função é necessário colocar o tipo de retorno dela, e o nome na frente, seguido dos parâmetros entre parênteses (variáveis enviadas na chamada da função) e fazer um escopo de bloco com chaves. 
 
-As funções criadas devem vir antes da função main, caso o contrário terão de ser criados protótipos.
+As funções criadas devem vir antes da função main, caso contrário terão de ser criados protótipos.
 
 
 Um exemplo seria:
@@ -22,10 +22,9 @@ void mostrarVariavel(int x) { //função de retorno tipo void que recebe um valo
 }
 
 
-int soma(int a, int b) { //função de retorno tipo inteiro que recebe duas variaveis inteiras na chamada e retona a soma das duas.
+int soma(int a, int b) { //função de retorno tipo inteiro que recebe duas variaveis inteiras na chamada e retorna a soma das duas.
 
-
-//como a função é de retorno tipo inteiro ela deve retornar algo inteiro.
+//como a função tem o tipo int, ela deve retornar um número inteiro.
 
 //o retorno é que quando você chamar a função irá aparecer ele no lugar, então vai aparecer a soma de dois valores passados.
     return a + b;
@@ -62,19 +61,15 @@ int main(void) {
 }
 
 
-int soma(int a, int b) { //função de retorno tipo inteiro que recebe duas variaveis inteiras na chamada e retona a soma das duas.
+int soma(int a, int b) { //função de retorno tipo inteiro que recebe duas variaveis inteiras na chamada e retorna a soma das duas.
 
-
-//como a função é de retorno tipo inteiro ela deve retornar algo inteiro.
+//como a função tem o tipo int ela deve retornar um número inteiro.
 
 //o retorno é que quando você chamar a função irá aparecer ele no lugar, então vai aparecer a soma de dois valores passados.
     return a + b;
 }
 
-
-
 void mostrarVariavel(int x) { //função de retorno tipo void que recebe um valor inteiro e mostra ele na tela.
-
 
 //por ser void ela não precisa retornar algum valor.
 

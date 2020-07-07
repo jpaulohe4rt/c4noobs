@@ -5,7 +5,7 @@ Ela pode ter o seu conteúdo alterado por um comando de atribuição.
 Depois da atribuição feito pelo comando elas mudam de valor.
 
 ```c
-int a, b, SomaGeral;
+int a, b, c;
 a = 3; // a recebe o valor 3
 b = a * 2; // b recebe o dobro do valor de a 
 c = a + b + 2; // c recebe 11
