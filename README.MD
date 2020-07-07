@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <h2 align="center">Markdown4Noobs</h2>
+  <h2 align="center">C4Noobs</h2>
 
   <h1 align="center">
   <img src="./src/imgs/c.png" alt="Imagem da Linguagem C" width="120">
