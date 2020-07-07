@@ -42,6 +42,8 @@ int main(void) {
 
 A estrutura de repetição for é bem utilizado com arrays, por exemplo, podemos somar todas as posições do array e fazer a média de itens lá dentro facilmente.
 
+Veremos ela com mais detalhes mais para frente, mas fique com uma prévia de como usa-la com arrays:
+
 ```c
 #include <stdio.h>
 

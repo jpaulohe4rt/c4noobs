@@ -17,17 +17,18 @@ Para adicionar um comentário em seu  programa inicie a linha com /* e termine o
 ```
 
 ```
-/* Este é um exemplo de múltiplas linhas C */
+/* Este é um exemplo
+    com múltiplas linhas
+    em C */
 ```
 Um programa C tem a seguinte estrutural geral:
 
 ```c
+// importação de arquivos/bibliotecas externas
+// e definição de elementos globais
 #include <stdio.h>
 
-definição das declarações
-
-funções
-
+// funções, aqui que a programação começa
 int main()
 {
     declaração de variáveis
@@ -43,7 +44,7 @@ int main()
 
 int main(void)
 {
-    printf("HelloWorld\n");
+    printf("Hello World\n");
 
     return 0;
 }
