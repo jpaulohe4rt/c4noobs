@@ -8,6 +8,21 @@ Instale o gerenciador de pacotes [Chocolatey](https://chocolatey.org/docs/instal
 
 `choco install vscode mingw`
 
+## Instalando o MinGw: 
+
+Instale o [mingw](https://sourceforge.net/projects/mingw/)
+
+Após fazer o download instale o mingw na sua máquina
+
+<img src="https://a.fsdn.com/con/app/proj/mingw/screenshots/mingw-get-setup-1.png/max/max/1">
+
+<img src="https://a.fsdn.com/con/app/proj/mingw/screenshots/mingw-get-setup-2.png/max/max/1">
+
+<img src="https://a.fsdn.com/con/app/proj/mingw/screenshots/mingw-get-setup-3.png/max/max/1">
+
+<img src="https://a.fsdn.com/con/app/proj/mingw/screenshots/mingw-get-1.png/max/max/1">
+
+
 ## Instalando Manualmente:
 
 Para a instalação no Windows basta você baixar o instalador no site [VSCode](https://code.visualstudio.com/) e instalar o VSCode.
