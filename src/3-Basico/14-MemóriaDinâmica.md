@@ -71,6 +71,7 @@ int main() {
 	printf("%d\n", *p);
 
 	free(p);
+	return 0;
 }
 ```
 Ao compilar e executar, o programa irá mostrar no stdout o número 0.
