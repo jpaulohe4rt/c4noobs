@@ -32,9 +32,8 @@ int main() {
 	 * através da função free(), que recebe o ponteiro como parâmetro.
 	 */
 	free(p);
+	return 0;
 }
-
-return 0;
 
 ```
 OBS:
