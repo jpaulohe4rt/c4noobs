@@ -53,7 +53,7 @@
 11. [Estruturas de Repetição](/src/3-Basico/11-EstruturasDeRepeticao.md)
 12. [Matrizes](/src/3-Basico/12-Matrizes.md)
 13. [Ponteiros](/src/3-Basico/13-Ponteiros.md)
-14. [Memória Dinâmica](/src/3-Basico/13-Ponteiros.md)
+14. [Memória Dinâmica](/src/3-Basico/14-MemóriaDinâmica.md)
 
 ## Como Contribuir
 
