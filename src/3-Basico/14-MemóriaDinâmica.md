@@ -17,22 +17,23 @@ Vamos ver como fica no código.
 #include <stdio.h>
 #include <stdlib.h>
 
-/* declaramos um ponteiro inteiro e atribuímos a ele
- *  o endereço de memória retornado pela função malloc.
- * Na função malloc, colocamos como parâmetro quantos bytes queremos alocar na heap.
- * Usamos a função sizeof para passar o tamanho da variável, já que não podemos ter certeza do tamanho de cada variável, 
- *já que isso pode mudar conforme o sistema.
- */
-int *p = (int *) malloc(sizeof(int));
-
-/* Diferente da memória stack, os bytes alocados na heap não são liberados ao finalizar o programa,
- * portanto devemos liberá-los de forma explícita
- * assim que o programa parar de usar a variável que está alocada na heap,
- * através da função free(), que recebe o ponteiro como parâmetro.
- */
-free(p);
-
-return 0;
+int main() {
+	/* declaramos um ponteiro inteiro e atribuímos a ele
+	 *  o endereço de memória retornado pela função malloc.
+	 * Na função malloc, colocamos como parâmetro quantos bytes queremos alocar na heap.
+	 * Usamos a função sizeof para passar o tamanho da variável, já que não podemos ter certeza do tamanho de cada variável, 
+	 *já que isso pode mudar conforme o sistema.
+	 */
+	int *p = (int *) malloc(sizeof(int));
+	
+	/* Diferente da memória stack, os bytes alocados na heap não são liberados ao finalizar o programa,
+	 * portanto devemos liberá-los de forma explícita
+	 * assim que o programa parar de usar a variável que está alocada na heap,
+	 * através da função free(), que recebe o ponteiro como parâmetro.
+	 */
+	free(p);
+	return 0;
+}
 
 ```
 OBS:
@@ -43,14 +44,37 @@ um ponteiro int*.
 #include <stdio.h>
 #include <stdlib.h>
 
-// sem conversão do ponteiro retornado :0
+int main() {
+	// sem conversão do ponteiro retornado :0
 
-int *p = malloc(sizeof(int));
+	int *p = malloc(sizeof(int));
 
-free(p);
+	free(p);
 
-return 0;
+	return 0;
+}
+```
+# Falha na Alocação
+Podem ocorrer casos em que a alocação não é bem sucedida. Assim, a função malloc retorna NULL.
+Usar um poteiro NULL irá resultar em erro no programa e não queremos que isso aconteça.
+Assim, uma boa prática é criar uma condição para lidar com a alocação mal sucedida.
+```c
+#include <stdio.h>
+#include <stdlib.h>
 
+int main() {
+	// sem conversão do ponteiro retornado :0
+
+	int *p = malloc(sizeof(int));
+
+	if (p == NULL) {
+		printf("Alocação mal sucedida!");
+		exit(1);
+	}
+	else free(p);
+
+	return 0;
+}
 ```
 # calloc
 A função calloc faz o mesmo que o malloc, mas torna todos os bytes alocados iguais a zero.
@@ -59,14 +83,20 @@ A função calloc faz o mesmo que o malloc, mas torna todos os bytes alocados ig
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Calloc recebe como parâmetro, além do tamanho, o número de alocações. 
- *  Se queremos alocar 3 inteiros, devemos chamar calloc(3, sizeof(int))
- */
-int *p = (int *) calloc(1, sizeof(int));
+int main() {
+	/* Calloc recebe como parâmetro, além do tamanho, o número de alocações. 
+	 *  Se queremos alocar 3 inteiros, devemos chamar calloc(3, sizeof(int))
+	 */
+	int *p = (int *) calloc(1, sizeof(int));
+	if (p == NULL) {
+		printf("Alocação mal sucedida!");
+		exit(1);
+	}
+	printf("%d\n", *p);
 
-printf("%d\n", *p);
-
-free(p);
+	free(p);
+	return 0;
+}
 ```
 Ao compilar e executar, o programa irá mostrar no stdout o número 0.
 
@@ -77,13 +107,18 @@ Podemos criar um array na heap alocando múltiplos do tamanho da variável!
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Cria um array de 5 inteiros na heap
- */
+int main() {
+	/* Cria um array de 5 inteiros na heap
+	 */
 
-int *nums = (int *) malloc(5*sizeof(int));
+	int *nums = (int *) malloc(5*sizeof(int));
+	if (p == NULL) {
+		printf("Alocação mal sucedida!");
+		exit(1);
+	}
+	free(p);
 
-free(p);
-
-return 0;
+	return 0;
+}
 ```
 

@@ -56,6 +56,7 @@
 14. [Memória Dinâmica](/src/3-Basico/14-MemóriaDinâmica.md)
 15. [Leitura e Escrita de Arquivos](/src/3-Basico/15-Arquivos.md)
 
+
 ## Como Contribuir
 
 Contribuições fazem com que a comunidade open source seja um lugar incrível para aprender, inspirar e criar. Todas contribuições
