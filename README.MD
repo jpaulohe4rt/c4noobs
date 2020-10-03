@@ -54,6 +54,8 @@
 12. [Matrizes](/src/3-Basico/12-Matrizes.md)
 13. [Ponteiros](/src/3-Basico/13-Ponteiros.md)
 14. [Memória Dinâmica](/src/3-Basico/14-MemóriaDinâmica.md)
+15. [Leitura e Escrita de Arquivos](/src/3-Basico/15-Arquivos.md)
+
 
 ## Como Contribuir
 
