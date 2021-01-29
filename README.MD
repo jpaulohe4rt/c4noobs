@@ -55,7 +55,7 @@
 13. [Ponteiros](/src/3-Basico/13-Ponteiros.md)
 14. [Memória Dinâmica](/src/3-Basico/14-MemóriaDinâmica.md)
 15. [Leitura e Escrita de Arquivos](/src/3-Basico/15-Arquivos.md)
-
+16. [Structs](/src/3-Basico/16-Structs.md)
 
 ## Como Contribuir
 
