@@ -83,7 +83,7 @@ int main(void) {
     int *ponteiro;  // para declarar um ponteiro, definimos o seu tipo
                     // e o nome com o asterisco atrás dele.
 
-    ponteiro = malloc(sizeof(int));
+    ponteiro = (int *)malloc(sizeof(int));
     //a função malloc armazena na memória o tamanho em bytes que você quiser.
     //a função sizeof retorna o tamanho do tipo que você quer, portanto o ponteiro fica alocado corretamente para o tamanho indicado e está pronto para uso.
 
@@ -104,7 +104,7 @@ int main(void) {
 
     int *ponteiro;
 
-    ponteiro = malloc(sizeof(int));
+    ponteiro = (int *)malloc(sizeof(int));
 
     //esse código funciona mas não é adequado
     //ao compilar o compilador dá diversos warning(avisos)
