@@ -112,11 +112,11 @@ int main() {
 	 */
 
 	int *nums = (int *) malloc(5*sizeof(int));
-	if (p == NULL) {
+	if (nums == NULL) {
 		printf("Alocação mal sucedida!");
 		exit(1);
 	}
-	free(p);
+	free(nums);
 
 	return 0;
 }
