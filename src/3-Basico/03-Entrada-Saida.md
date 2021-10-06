@@ -2,19 +2,22 @@
 
 Para que um programa em C mostre alguns resultados, ou que o programa peça algum tipo de dado ao usúario, precisamos utilizar funções existentes em C que são chamadas de `printf()` e `scanf()`. Lembrando que, é necessário utilizar no início do programa : `#include <stdio.h>` para que essas funções possam ser utilizadas.
 
+
 ## printf()
 
-A função `printf()` exibe um ou mais dados na tela. contudo ele deve receber pelo menos dois parâmetros, separados por vírgula.
+A função `printf()` exibe um ou mais dados na tela. Contudo ele deve receber pelo menos dois parâmetros, separados por vírgula.
 
 - Uma string que define, através de caracteres especiais, os dados a serem impressos e a suas posições na linha da impressão ou um dado a ser impresso.
 
 
 ### Exemplos:
+
 Para imprimir string:
 
 ```c
 printf("%s", "linguagemC");
 ```
+
 - "%s": é a string para resgatar o valor que vai ser impresso
 - "linguagemC": é o valor que vai ser impresso
 
@@ -70,47 +73,47 @@ Lista de Funcionários:
 	Fulano de Tal
 	Ciclano d Beltrano
 	
-//No printf podemos fazer algo que não dá no scanf, utilizar %s em uma string com espaço, como no nome Ciclano Beltrano
-//Podemos ver acima que para imprimir funciona, porém abaixo ensinarei um truque para leitura
+// No printf podemos fazer algo que não é possível no scanf, utilizar %s em uma string com espaço, como no nome Ciclano Beltrano
+// Podemos ver acima que para imprimir funciona, porém abaixo ensinarei um truque para leitura
 ```
+
 
 ## scanf()
 
 A função é similar ao printf, os caracteres obtidos pelo **scanf()** são realizados pelo teclado. Este comando efetua uma leitura do teclado onde é esperada uma variável e o valor lido será armazenado no endereço da variável do programa. Para ficar mais claro segue o exemplo:
 
-
 ```c
 #include <stdio.h>
 
 int main(void){
-    int a, b, soma; // declaração das variáveis de tipo inteiro
+    int a, b, soma;   // declaração das variáveis de tipo inteiro
 
     printf("Digite um numero inteiro: ");
-    scanf("%d", &a); //recebe um inteiro e armazena na variável a
+    scanf("%d", &a);   // recebe um inteiro e armazena na variável a
   
     printf("Digite um numero inteiro: ");
-    scanf("%d", &b); //recebe um inteiro e armazena na variável b
-    soma = a + b;
-    //Efetua adição de a com b e armazena na variável soma
+    scanf("%d", &b);   // recebe um inteiro e armazena na variável b
+    
+    soma = a + b;   // Efetua adição de a com b e armazena na variável soma
     
     //scanf("%d %d", &a, &b); também pode ser feito, e mesmo que o usário insira o primeiro numero, aperte enter ou espaço 
-    //e insira o segundo numero, funcionará. só não funcionará se colocar os dois numeros juntos, pois será lido como um só
+    //e insira o segundo numero, funcionará. Só não funcionará se colocar os dois numeros juntos, pois será lido como um só
   
-    printf("O valor da soma = %d\n", soma); //Mostra mensagem com o resultado
+    printf("O valor da soma = %d\n", soma);   // Mostra a mensagem com o resultado
   
     return 0;
 }
 ```
 
-Para a leitura de strings (conjunto de letras) com espaço entre elas, o segredo é usar um comando que diz ao computador para ler até o usuario apertar enter
+- Para a leitura de strings (conjunto de letras) com espaço entre elas, o segredo é usar um comando que diz ao computador para ler até o usuario apertar enter
 
 ```c
 #include <stdio.h>
 
 int main(void){
-	char vetor[10];  		//nao tente entender vetor agora
-	scanf("%[^\n]", vetor);	//nem porque nao foi usado &, explicaremos mais a frente
-	//Dessa forma poderemos ler strings como "Ciclano Beltrano" sem qualquer problema
-	//se tivessemos utilizado %s o computador teria lido somente o que estava a esquerda do espaço, o Ciclano
+	char vetor[10];  		// Explicamos melhor um vetor mais a frente
+	scanf("%[^\n]", vetor);	//e também porque nao foi usado &
+	// Dessa forma poderemos ler strings como "Ciclano Beltrano" sem qualquer problema
+	// Se tivessemos utilizado %s o computador teria lido somente o que estava a esquerda do espaço, o Ciclano
 }
 

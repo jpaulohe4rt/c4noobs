@@ -11,6 +11,7 @@ b = a * 2; // b recebe o dobro do valor de a
 c = a + b + 2; // c recebe 11
 ```
 
+
 ## Tipo de Variáveis
 
 Na Linguagem C todas as variáveis tem um tipo, esses tipos definem os valores que a variável pode armazenar e o quanto ocupa na memória do sistema.
@@ -25,8 +26,8 @@ Na Linguagem C todas as variáveis tem um tipo, esses tipos definem os valores q
 
 ## Declaração de Variáveis
 
-- Devem ser declaradas antes de serem usadas
-- Não há uma inicialização implícita na declaração
+- Devem ser declaradas antes de serem usadas.
+- Não há uma inicialização implícita na declaração.
 
 
 ## Requisitos de Variáveis
@@ -63,7 +64,7 @@ int main(void)
    float PrecoDoQuilo;
    double TaxaDeCambio;
    char letra;
-   char nome[10];               // Para declarar strings, é necessário um conjunto de char(caracteres)
+   char nome[10];               // Para declarar um vetor é necessário [] e dizer quantos caracteres ou inteiros caberá nele
    
    int TamanhoManoel, TamanhoJoao, TamanhoMaria;  // Pode colocar mais de uma variável na mesma linha 
 
@@ -74,34 +75,39 @@ int main(void)
 }    
 ```
 
+
 ## Escopo de Variáveis
 
-O local onde declaramos a variavel define até ocorrerá seu funcionamento dentro do código.
-- Seus subtipos são: locais e globais.
+O local onde declaramos a variável define até onde ocorrerá seu funcionamento dentro do código.
+Seus subtipos são: 
 
+- Local - funciona somente no local que foi declarada, ou seja, dentro da função onde ela 'nasceu' e as funções dentro desta e se encerra quando a função acaba sua execução. Então toda vez que a função é chamada, a variável local surge e termina junto com a execução da função.
+
+- Global - funciona em qualquer parte do código, é declarada em somente um local e pode ser utilizada em qualquer local das funções. Então sempre tenha muito cuidado ao utiliza-la, pois a alteração de seu conteudo pode ser feita em qualquer parte.
+ 
 ```c
 #include <stdio.h> 
 
-int global;		// A variável global poderá ser utilizada em qualquer parte do código
+int global;		// É declarada antes de todas as outras funçoes e depois das bibliotecas
 
 int main(void)
 { 
 
-   int local;          // A variável local somente funciona dentro da função que declarada
-   			// nesse caso o main(void) e tudo que está dentro dele
+   int local;          // Declarada dentro da função, nesse caso o main(void) e poderá ser utilizada por tudo que está dentro dele
    			
    int funcao( int local )
    {
-   	printf("%d \n", local);       //Se temos a local do main e a local da funcao, a prioridade é a da variável da função
+   	printf("%d \n", local);       // Se temos a variável local do main e a local da função, a prioridade é da variável da função
    	//e por mais que tenham o mesmo nome, alterar a local da função não altera a local do main, somente caso a da função não existisse
    	
-   	printf("%d \n", global);     //A global funcionará pelo que foi dito anteriormente
+   	printf("%d \n", global);     // A global funcionará pelo que foi dito anteriormente
    }
    
    //Por favor, não declarem 2 variáveis com o mesmo nome, fiquem atentos
    
 }
 ```
+
 
 ### Como inicializar uma variável de declaração
 
@@ -121,5 +127,4 @@ int main(void)
    char vetor[] = {"c4noobs"};		   // declarando vetor de letras e inicializa com uma string
 }
 ```
-O ruim dessa forma de declaração é que não podemos fazer inclusões no vetor, e aumentá-lo demanda um conhecimento avançado
-que traremos futuramente
+O ruim desta forma de declaração é que não podemos fazer inclusões no vetor, e aumentar seu tamanho para receber mais conteúdo demanda um conhecimento avançado que traremos futuramente
