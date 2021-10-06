@@ -28,7 +28,10 @@ Na Linguagem C todas as variáveis tem um tipo, esses tipos definem os valores q
 - Devem ser declaradas antes de serem usadas
 - Não há uma inicialização implícita na declaração
 
-- Precisamos seguir alguns requisitos essenciais para manter o nosso código limpo e claro:
+
+## Requisitos de Variáveis
+
+Precisamos seguir alguns requisitos essenciais para manter o nosso código limpo e claro:
 
 - Deve iniciar com uma letra ou com um "_".
 - Tem que ter no máximo de 31 caracteres.
@@ -71,7 +74,7 @@ int main(void)
 }    
 ```
 
-## Subtipo de Variáveis
+## Escopo de Variáveis
 
 O local onde declaramos a variavel define até ocorrerá seu funcionamento dentro do código.
 - Seus subtipos são: locais e globais.
