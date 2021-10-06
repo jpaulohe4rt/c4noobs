@@ -49,6 +49,9 @@ Você também pode inserir códigos especiais e alguns tipos de formatação no 
 | %c | Imprime um caractere simples |
 | %d | Imprime um número inteiro com sinal |
 | %f | Imprime um ponto flutuante (número real) |
+| %.3f | Imprime um ponto flutuante com 3 casas decimais |
+| %o | Imprime um decimal como octal |
+| %x | Imprime um decimal como hexadecimal |
 | %s | Imprime uma string de caracteres |
 | %% | Imprime um caractere % |
 | %ld | Imprime um número inteiro longo com sinal |
