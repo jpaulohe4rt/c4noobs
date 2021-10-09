@@ -1,9 +1,6 @@
 # Ponteiro para função
 
-Um tópico que poucas pessoas falam, mas que pode ser muito importante para alguns projetos avançados, é o ponteiro para funções. Esse tipo de ponteiro funciona parecido com os ponteiros comuns, com a diferença que ele aponta para uma função e não para uma variável.
-
-
-## Criando seu próprio ponteiro
+Um tópico que é pouco falado mas que pode ser muito importante para alguns projetos avançados é o ponteiro para funções. Esse tipo de ponteiro funciona parecido com os ponteiros comuns, com a diferença que ele aponta para uma função e não para uma variável.
 
 Declarar um ponteiro para função é simples:
 
@@ -12,12 +9,12 @@ Declarar um ponteiro para função é simples:
 ### Exemplo
 
 ```c
-// Função que vamos apontar
+// Função que será apontada
 int add(int a, int b) {
     return a + b;
 }
 
-// Outra função que vamos apontar
+// Outra função que será apontada
 int sub(int a, int b) {
     return a - b;
 }
@@ -68,7 +65,13 @@ int main(void) {
 }
 ```
 
-[Exemplo de uso de ponteiros para função.](./1-1-qsort.md) Espero que tenham entendido, obrigado!
+### Qual a utilidade?
+
+[Leia esse tópico antes de continuar](./1-1-qsort.md) <br>
+
+Qualquer algoritmo que seja desejavel rodar em qualquer estrutura de dados, como algoritmos de busca e ordenação, é um bom candidato para possuir uma função como parâmetro.
+
+Espero que tenham entendido, obrigado!
 
 ### Referências:
 [qsort - documentação](https://www.cplusplus.com/reference/cstdlib/qsort/) <br>
