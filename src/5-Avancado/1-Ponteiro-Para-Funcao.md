@@ -65,6 +65,20 @@ int main(void) {
 }
 ```
 
+Também é possível fazer vetores.
+```c
+int main(void) {
+
+    Operacao op[2];
+
+    op[0] = add;
+    printf("Função 1: %d\n", op[0](5, 5));
+
+    op[1] = sub;
+    printf("Função 1: %d\n", op[1](5, 5));
+}
+```
+
 ### Qual a utilidade?
 
 [Leia esse tópico antes de continuar](./1-1-qsort.md) <br>
