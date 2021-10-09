@@ -87,7 +87,6 @@ Qualquer algoritmo que seja desejavel rodar em qualquer estrutura de dados, como
 
 Situações onde são esperadas funções com o mesmo objetivo mas com comportamento diferente também são bons candidatos (Atualização de entidades em um jogo, testes de desempenho customizado e etc)
 
-Espero que tenham entendido, obrigado!
 
 ### Referências:
 [qsort - documentação](https://www.cplusplus.com/reference/cstdlib/qsort/) <br>
