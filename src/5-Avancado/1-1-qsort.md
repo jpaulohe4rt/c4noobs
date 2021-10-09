@@ -8,7 +8,7 @@ A função qsort implementa o algoritmo [quicksort](https://pt.wikipedia.org/wik
 
 ### Usando a qsort
 
-Para utilizar a qsort é necessário definir uma função que consigar comparar dois valores, o mesmo comportamento que teríamos na `strcmp` da string.h, se o primeiro valor é maior que o segundo valor então a função **retorna um valor maior que 0**, se são iguais, então a função **retorna 0**, se é menor então **retorna um valor menor que 0**. 
+Para utilizar a qsort é necessário definir uma função que consigar comparar dois valores, o mesmo comportamento que a `strcmp` da string.h apresenta, se o primeiro valor é maior que o segundo valor então a função **retorna um valor maior que 0**, se são iguais, então a função **retorna 0**, se é menor então **retorna um valor menor que 0**. 
 
 | Return   |      p1, p2    
 |----------|:-------------| 
@@ -35,8 +35,6 @@ int comparador(const void *a, const void *b) {
    return *(int*)a - *(int*)b;
 }
 ```
-
-Não irei me aprofundar muito pois não é o objetivo, apenas veja funcionando.
 
 ```c
 int main(void) {
