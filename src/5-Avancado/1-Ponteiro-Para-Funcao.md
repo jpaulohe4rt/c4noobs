@@ -85,6 +85,8 @@ int main(void) {
 
 Qualquer algoritmo que seja desejavel rodar em qualquer estrutura de dados, como algoritmos de busca e ordenação, é um bom candidato para possuir uma função como parâmetro.
 
+Situações onde são esperadas funções com o mesmo objetivo mas com comportamento diferente também são bons candidatos (Atualização de entidades em um jogo, testes de desempenho customizado e etc)
+
 Espero que tenham entendido, obrigado!
 
 ### Referências:
