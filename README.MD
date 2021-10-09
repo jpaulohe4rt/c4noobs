@@ -70,7 +70,7 @@ são **extremamente apreciadas**
 ## Autores
 
 - **João Paulo Lima (jpaulohe4rt)** - _Developer & Member of He4rt Developers_  - [Twitter](https://twitter.com/jpaulohe4rt)
-- **Paulo Rievrs Oliveira** - _Developer & Member of He4rt Developers_ - [Linkedin](https://www.linkedin.com/in/paulo-rievrs/) - [Github](www.github.com/paulorievrs)
+- **Paulo Rievrs Oliveira** - _Developer & Member of He4rt Developers_ - [Linkedin](https://www.linkedin.com/in/paulo-rievrs/) - [Github](https://www.github.com/paulorievrs)
 
 <p align="center">Made with 💜</p>
 
