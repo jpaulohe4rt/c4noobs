@@ -56,6 +56,10 @@
 14. [Leitura e Escrita de Arquivos](/src/3-Basico/14-Arquivos.md)
 15. [Structs](/src/3-Basico/15-Structs.md)
 
+### Módulo Avançado
+
+01. [Ponteiro para Função](/src/5-Avancado/1-Ponteiro-Para-Funcao.md)
+
 ## Como Contribuir
 
 Contribuições fazem com que a comunidade open source seja um lugar incrível para aprender, inspirar e criar. Todas contribuições
