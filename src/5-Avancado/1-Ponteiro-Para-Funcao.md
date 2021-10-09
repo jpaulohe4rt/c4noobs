@@ -61,7 +61,7 @@ int main(void) {
     printf("Função 1: %d\n", op(5, 5));
 
     op = sub;
-    printf("Função 1: %d\n", op(5, 5));
+    printf("Função 2: %d\n", op(5, 5));
 }
 ```
 
@@ -75,7 +75,7 @@ int main(void) {
     printf("Função 1: %d\n", op[0](5, 5));
 
     op[1] = sub;
-    printf("Função 1: %d\n", op[1](5, 5));
+    printf("Função 2: %d\n", op[1](5, 5));
 }
 ```
 
