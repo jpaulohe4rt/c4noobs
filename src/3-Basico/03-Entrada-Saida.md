@@ -111,9 +111,63 @@ int main(void){
 #include <stdio.h>
 
 int main(void){
-	char vetor[10];  		// Explicamos melhor um vetor mais a frente
+	char vetor[10];		// Explicamos melhor um vetor mais a frente
 	scanf("%[^\n]", vetor);	//e também porque nao foi usado &
+	
 	// Dessa forma poderemos ler strings como "Ciclano Beltrano" sem qualquer problema
 	// Se tivessemos utilizado %s o computador teria lido somente o que estava a esquerda do espaço, o Ciclano
+	
+	printf("%s\n", vetor);		// Para o printf não é necessário %[^\n]
+	
+	return 0;
 }
+```
 
+
+### fprintf() e sscanf()
+
+Essas variação do printf() e do scanf() servem para "imprimir" dados em outra variável, arquivo, ou também na tela, de forma mais eficiente e rápida que algumas cópias.
+
+```c
+#include <stdio.h>
+
+int main(void){
+	int variavel1;
+	char variavel2[10];
+	
+	scanf("%[^\n]", variavel2);		// Usuário entra com os números 123
+	
+	sscanf(variavel2, "%d", &variavel1)	// Passa o conteúdo da variável2 convertido para inteiro para a váriavel1
+	
+			// Caso o sscanf não tivesse sido usado, teriamos que programar o código para passar por cada casa do vetor variavel2, 
+			//transformando de texto para inteiro, multiplicando pela casa decimal que representa e somando tudo na variavel1
+			
+	printf("%d\n", variavel1);		// A saída é 123
+	
+	// fprintf( *arquivo, "formatação", ...);
+	// fprintf( stdout, "formatação", ...);
+	
+		// fprintf pega o que está em ... e passa para o primeiro parâmentro, sendo a formatação do tipo que está em ...
+	
+		// ... significa que podemos ter ddde 1 até mais variáveis
+		// "formatação" de impressão tanto pode ser somente %d, %s, os dois juntos, com ou sem texto
+		// *arquivo será ensinado mais a frente
+		// stdout é a saída padrão de dados, em geral, o monitor, o terminal onde mandamos executar o código
+		
+	// sprintf(variavel2, "%d", &variavel1);	passa o que está na variável1 para a variável2
+	
+	
+	// Porém com as variações do scanf teremos a passagem do que está no primeiro parâmetro para o terceiro da função
+	
+	
+	// fscanf( *arquivo, "formatação", ...);
+	// fscanf( stdin, "formatação", ...);
+	
+		// fscanf é o equivalente ao fprintf, porém para a leitura
+		
+		// "formatação" é como a do fprintf, porém utilizando os padrões de leitura
+		// stdin significa a entrada padrão de dados, nesse caso o teclado
+		
+	return 0;
+}
+```
