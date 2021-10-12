@@ -137,12 +137,12 @@ int main(void){
 	
 	scanf("%[^\n]", variavel2);		// Usuário entra com os números 123
 	
-	sscanf(variavel2, "%d", &variavel1)	// Passa o conteúdo da variável2 convertido para inteiro para a váriavel1
+	sscanf(variavel2, "%d", &variavel1)	// Passa o conteúdo da variável2 para a váriavel1
 	
 			// Caso o sscanf não tivesse sido usado, teriamos que programar o código para passar por cada casa do vetor variavel2, 
 			//transformando de texto para inteiro, multiplicando pela casa decimal que representa e somando tudo na variavel1
 			
-	printf("%d\n", variavel1);		// A saída é 123
+	printf("%d\n", variavel1);		// A saída é 123 em inteiro
 	
 	// fprintf( *arquivo, "formatação", ...);
 	// fprintf( stdout, "formatação", ...);
@@ -167,6 +167,22 @@ int main(void){
 		
 		// "formatação" é como a do fprintf, porém utilizando os padrões de leitura
 		// stdin significa a entrada padrão de dados, nesse caso o teclado
+		
+	//Outro exemplo
+
+    	int dia, mes, ano;
+    
+    	char *source = (char *) malloc(100 * sizeof(char));
+    	char *target = (char *) malloc(100 * sizeof(char));
+    	source = "27/05/2001";
+    
+
+    	sscanf(source, "%d/%d/%d", &dia, &mes, &ano);
+    	printf("source: %s\n", source);			// Imprime 27/05/2001 que está no source
+    
+    	sprintf(target, "-> %d-%d-%d", dia, mes, ano);
+    	printf("target: %s\n", target);			// Imprime -> 27-05-2001 que está no target
+
 		
 	return 0;
 }
