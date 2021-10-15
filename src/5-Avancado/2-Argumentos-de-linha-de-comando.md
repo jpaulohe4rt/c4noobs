@@ -34,7 +34,7 @@ user@c4noobs:/mnt/d/c4noobs$ hello
 Hello!
 ```
 
-## Como usar
+## Como usar?
 
 > hello.c
 ```c
@@ -57,4 +57,47 @@ int main(int argc, char **argv) {
 ```shell
 user@c4noobs:/mnt/d/c4noobs$ ./hello c4noobs he4rts
 ./hello - c4noobs - he4rts -
+```
+
+### Propriedades
+
+- É possível controlar o programa por fora do código.
+- Os argumentos são passados quando o programa é invocado.
+- O argv[1] armazena o primeiro argumento e assim por diante. 
+
+### Exemplos
+
+```c
+// Vetor.cpp
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char **argv) {
+    /* 
+       Esse programa espera um argumento externo, 
+       O número que representa o tamanho do vetor 
+    */
+    if(argc != 2) {
+        printf("Error: Invalid number of arguments\n");
+        return -1;
+    }
+
+    // Atoi não é uma operação segura!
+    int size = atoi(argv[1]);
+
+    int *arr = (int *) malloc(size * sizeof(int));
+    for(int i = 0; i < size; i++)
+        arr[i] = i;
+
+    // Print
+    for(int i = 0; i < size; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
+}
+```
+```shell
+user@c4noobs:/mnt/d/c4noobs$ ./Vetor 5
+0 1 2 3 4
+user@c4noobs:/mnt/d/c4noobs$ ./Vetor
+Error: Invalid number of arguments
 ```
