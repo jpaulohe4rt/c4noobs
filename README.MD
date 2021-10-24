@@ -59,6 +59,7 @@
 ### Módulo Avançado
 
 01. [Ponteiro para Função](/src/5-Avancado/1-Ponteiro-Para-Funcao.md)
+02. [Argumentos de Linha de Comando](/src/5-Avancado/2-Argumentos-de-linha-de-comando.md)
 
 ## Como Contribuir
 

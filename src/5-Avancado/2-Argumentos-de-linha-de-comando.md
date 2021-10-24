@@ -36,7 +36,7 @@ Hello!
 
 ## Como usar?
 
-> hello.c
+> test_args.c
 ```c
 #include <stdio.h>
 
@@ -48,15 +48,17 @@ int main(int argc, char **argv) {
                quantidade de argumentos recebidos
     */
     for(int i = 0; i < argc; i++) {
-        printf("%s - ", argv[i]);
+        printf("%d: %s\n", i, argv[i]);
     }
     printf("\n");
 }
 ```
 > :warning: Os argumentos são separados por espaços
 ```shell
-user@c4noobs:/mnt/d/c4noobs$ ./hello c4noobs he4rts
-./hello - c4noobs - he4rts -
+$ ./hello.exe c4noobs testes
+0: ./hello.exe
+1: c4noobs
+2: testes
 ```
 
 ### Propriedades
@@ -67,8 +69,8 @@ user@c4noobs:/mnt/d/c4noobs$ ./hello c4noobs he4rts
 
 ### Exemplos
 
+> vetor.c
 ```c
-// Vetor.cpp
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -96,8 +98,13 @@ int main(int argc, char **argv) {
 }
 ```
 ```shell
-user@c4noobs:/mnt/d/c4noobs$ ./Vetor 5
+user@c4noobs:/mnt/d/c4noobs$ ./vetor 5
 0 1 2 3 4
-user@c4noobs:/mnt/d/c4noobs$ ./Vetor
+user@c4noobs:/mnt/d/c4noobs$ ./vetor
 Error: Invalid number of arguments
 ```
+
+
+### Extras
+
+[Implementação do LS](https://www.google.com/search?q=creating+ls+c)
