@@ -48,7 +48,7 @@
 06. [Funções](/src/3-Basico/06-Funcoes.md)
 07. [Arrays](/src/3-Basico/07-Arrays.md)
 08. [Operadores Lógicos](/src/3-Basico/08-Operadores-Logicos.md)
-09. [Switch e Break](/src/3-Basico/09-SwitchBreak.md)
+09. [Estruturas de Decisão](/src/3-Basico/09-EstruturasDeDecisao.md)
 10. [Estruturas de Repetição](/src/3-Basico/10-EstruturasDeRepeticao.md)
 11. [Matrizes](/src/3-Basico/11-Matrizes.md)
 12. [Ponteiros](/src/3-Basico/12-Ponteiros.md)
@@ -76,6 +76,7 @@ são **extremamente apreciadas**
 
 - **João Paulo Lima (jpaulohe4rt)** - _Developer & Member of He4rt Developers_  - [Twitter](https://twitter.com/jpaulohe4rt)
 - **Paulo Rievrs Oliveira** - _Developer & Member of He4rt Developers_ - [Linkedin](https://www.linkedin.com/in/paulo-rievrs/) - [Github](https://www.github.com/paulorievrs)
+- **Vinícius Gonçalves Basílio** - _Developer & Member of He4rt Developers_ - [Github](https://github.com/vbasilioo)
 
 <p align="center">Made with 💜</p>
 
