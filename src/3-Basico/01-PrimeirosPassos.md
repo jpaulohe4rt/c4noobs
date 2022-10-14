@@ -3,7 +3,7 @@
 Programas em C consitem em uma ou mais partes que declaramos como funções e com a extensão do arquivo em **.c** como está representado na imagem a baixo.
 
 <p align="center">
-    <img src="https://i.imgur.com/ta8FEqY.png" alt="C/C++">
+    <img src="https://i.imgur.com/ta8FEqY.png" alt="C">
 </p>
 
 ## Comentários
@@ -26,7 +26,8 @@ Um programa C tem a seguinte estrutural geral:
 ```c
 // importação de arquivos/bibliotecas externas
 // e definição de elementos globais
-#include <stdio.h>
+
+#include <stdio.h> 
 
 // funções, aqui que a programação começa
 int main()
@@ -42,7 +43,7 @@ int main()
 ```c
 #include <stdio.h>
 
-int main(void)
+int main(void) 
 {
     printf("Hello World\n");
 
