@@ -13,7 +13,8 @@ int main(void){
     // eles irão ser análisados pela estrutura de decisão.
 
     if(n1>n2){ // Aqui estamos inserindo uma decisão, perguntando se a variável n1 é maior que a n2.
-        maior = n1; // Se a variável for maior, o programa irá acessar as chaves do IF e ler o trecho do código que está dentro dele, 
+        maior = n1; // Se a variável for maior, o programa irá acessar as chaves do IF 
+        // e ler o trecho do código que está dentro dele, 
         // neste caso, irá atribuir o valor da variável n1 para a variável maior. Então, maior começará a ser 10.
     }
 
@@ -41,9 +42,11 @@ int main(void){
     int numero = 9; // Estamos definindo a variável numero com o valor de 9.
 
     if( numero > 10 ){
-        printf ("O número é maior que 10.\n"); // Essa mensagem irá aparecer se a variável 'número' tiver o valor MAIOR que 10.
+        printf ("O número é maior que 10.\n"); // Essa mensagem irá aparecer se a variável 'número' tiver 
+        // o valor MAIOR que 10.
     }else{
-        printf ("O número não é maior que 10.\n"); // Essa mensagem irá aparecer se a variável 'número' tiver o valor MENOR que 10.
+        printf ("O número não é maior que 10.\n"); // Essa mensagem irá aparecer se a variável 'número' tiver 
+        // o valor MENOR que 10.
     }
 
     return 0;
@@ -155,7 +158,7 @@ int main (void)
 {
   int valor;
   
-  printf ("Digite um valor de 1 a 7: "); // Imaginamos que o usuário digite 2.
+  printf ("Digite um valor de 1 a 7: "); // Imagine que o usuário digite 2.
   scanf ("%d", &valor); 
   
   switch ( valor )
