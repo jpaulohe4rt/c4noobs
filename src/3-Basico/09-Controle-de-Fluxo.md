@@ -75,7 +75,7 @@ int main(void){
         printf ("O número é maior que 30\n"); //Essa mensagem só irá aparecer caso o número seja maior que 30. 
         //Como não é, não entramos nessa condição, e respectivamente, essa mensagem não aparece.
     }
-    else if ( numero 1 > 15 ){
+    else if ( numero1 > 15 ){
         printf ("O número é maior que 15 e menor que 30.\n");
     }
     else if ( numero1 > 10 ){ // A condição aqui é se a variável numero1 contém o valor maior que 10.
@@ -112,12 +112,14 @@ int main(void){
 
     int salario = 2000;
     salario > 1200 ? printf ("O salário é superior a 1200.\n") : printf ("O salário é inferior a 1200.\n");
+
     /* Estamos colocando a condição perguntando se o salário é maior que 1200
         Se for superior, o 'printf' após o sinal de interrogação será exibido para o usuário
         Caso contrário, o 'printf' após os dois pontos será exibido para o usuário.
 
         Notem que o primeiro printf não possui ponto e vírgula (;) no final, isso é padrão na operação ternária.
     */
+    
     return 0;
 }
 ```
