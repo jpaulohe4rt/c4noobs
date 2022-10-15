@@ -12,7 +12,7 @@ int main(void){
     int n1 = 10, n2 = 3, maior = 0; // Introduzimos o maior porque, conforme outros números superior a 0 apareçam, 
     // eles irão ser análisados pela estrutura de decisão.
 
-    if(n1>n2){ // Aqui estamos inserindo uma decisão, perguntando se a variável n1 é maior que a n2.
+    if( n1 > n2 ){ // Aqui estamos inserindo uma decisão, perguntando se a variável n1 é maior que a n2.
         maior = n1; // Se a variável for maior, o programa irá acessar as chaves do IF 
         // e ler o trecho do código que está dentro dele, 
         // neste caso, irá atribuir o valor da variável n1 para a variável maior. Então, maior começará a ser 10.
