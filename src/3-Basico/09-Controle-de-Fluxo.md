@@ -9,16 +9,21 @@ A estrutura de decisão IF *(**se**, em inglês)* pode ser utilizada para verifi
 
 int main(void){
 
-    int n1 = 10, n2 = 3, maior = 0; // Introduzimos o maior porque, conforme outros números superior a 0 apareçam, 
-    // eles irão ser análisados pela estrutura de decisão.
+    /* Introduzimos o maior porque, conforme outros números superior a 0 apareçam, 
+    eles irão ser análisados pela estrutura de decisão. */
+    int n1 = 10, n2 = 3, maior = 0; 
 
-    if( n1 > n2 ){ // Aqui estamos inserindo uma decisão, perguntando se a variável n1 é maior que a n2.
-        maior = n1; // Se a variável for maior, o programa irá acessar as chaves do IF 
-        // e ler o trecho do código que está dentro dele, 
-        // neste caso, irá atribuir o valor da variável n1 para a variável maior. Então, maior começará a ser 10.
+    // Aqui estamos inserindo uma decisão, perguntando se a variável n1 é maior que a n2.
+    if( n1 > n2 ){ 
+        maior = n1; 
+
+        /* Se a variável for maior, o programa irá acessar as chaves do IF 
+        e ler o trecho do código que está dentro dele, 
+        neste caso, irá atribuir o valor da variável n1 para a variável maior. Então, maior começará a ser 10. */
     }
 
-    printf ("%d\n", maior); // Aqui estamos exibindo na tela o maior número.
+    // Aqui estamos exibindo na tela o maior número.
+    printf ("%d\n", maior); 
 
     return 0;
 }
@@ -39,14 +44,17 @@ A estrutura de decisão **IF** e **ELSE** *(**Caso contrário**, em inglês)* ca
 
 int main(void){
 
-    int numero = 9; // Estamos definindo a variável numero com o valor de 9.
+    // Estamos definindo a variável numero com o valor de 9.
+    int numero = 9; 
 
     if( numero > 10 ){
-        printf ("O número é maior que 10.\n"); // Essa mensagem irá aparecer se a variável 'número' tiver 
-        // o valor MAIOR que 10.
+        printf ("O número é maior que 10.\n"); 
+        /* Essa mensagem irá aparecer se a variável 'número' tiver 
+        o valor MAIOR que 10. */
     }else{
-        printf ("O número não é maior que 10.\n"); // Essa mensagem irá aparecer se a variável 'número' tiver 
-        // o valor MENOR que 10.
+        printf ("O número não é maior que 10.\n"); 
+        /* Essa mensagem irá aparecer se a variável 'número' tiver 
+        o valor MENOR que 10. */
     }
 
     return 0;
@@ -56,7 +64,7 @@ int main(void){
 ### Saída
 
 ```c
-O número é maior que 10.
+O número não é maior que 10.
 ```
 
 ## ELSE IF
@@ -69,20 +77,27 @@ Ele pode ser adicionado inúmeras vezes.
 
 int main(void){
 
-    int numero1 = 12; // Aqui, definimos a variável número1 com o valor de 12.
+    // Aqui, definimos a variável número1 com o valor de 12.
+    int numero1 = 12; 
 
-    if( numero1 > 30 ){ // A condição aqui só pode ser acessada caso a variável número1 seja maior que 30, ou seja, 31,32,33...
-        printf ("O número é maior que 30\n"); //Essa mensagem só irá aparecer caso o número seja maior que 30. 
-        //Como não é, não entramos nessa condição, e respectivamente, essa mensagem não aparece.
+    // A condição aqui só pode ser acessada caso a variável número1 seja maior que 30, ou seja, 31,32,33...
+    if( numero1 > 30 ){ 
+        printf ("O número é maior que 30\n"); 
+        /* Essa mensagem só irá aparecer caso o número seja maior que 30. 
+        Como não é, não entramos nessa condição, e respectivamente, essa mensagem não aparece. */
     }
     else if ( numero1 > 15 ){
         printf ("O número é maior que 15 e menor que 30.\n");
     }
-    else if ( numero1 > 10 ){ // A condição aqui é se a variável numero1 contém o valor maior que 10.
-        printf ("O número é maior que 10 e menor que 15.\n"); // Como o valor da variável numero1 é 12, 
-        // então acessamos esse ELSE IF e essa mensagem é exibida na tela do usuário.
+    // A condição aqui é se a variável numero1 contém o valor maior que 10.
+    else if ( numero1 > 10 ){ 
+        printf ("O número é maior que 10 e menor que 15.\n"); 
+        /* Como o valor da variável numero1 é 12, 
+        então acessamos esse ELSE IF e essa mensagem é exibida na tela do usuário. */
     }
-    else { // Como a nossa variável já achou uma condição acessível, no caso o ELSE IF, esse ELSE não será lido.
+    /* Como a nossa variável já achou uma condição acessível, no caso o ELSE IF, 
+    esse ELSE não será lido. */
+    else { 
         printf ("O número é menor que 10\n"); 
     }
 
