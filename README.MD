@@ -48,7 +48,7 @@
 06. [Funções](/src/3-Basico/06-Funcoes.md)
 07. [Arrays](/src/3-Basico/07-Arrays.md)
 08. [Operadores Lógicos](/src/3-Basico/08-Operadores-Logicos.md)
-09. [Switch e Break](/src/3-Basico/09-SwitchBreak.md)
+09. [Controle de Fluxo](/src/3-Basico/09-Controle-de-Fluxo.md)
 10. [Estruturas de Repetição](/src/3-Basico/10-EstruturasDeRepeticao.md)
 11. [Matrizes](/src/3-Basico/11-Matrizes.md)
 12. [Ponteiros](/src/3-Basico/12-Ponteiros.md)
