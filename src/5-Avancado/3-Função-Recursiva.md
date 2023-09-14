@@ -5,7 +5,7 @@
 </p>
 
 ### 1) Definição
-Em poucas palavras, uma **função recursiva é uma função que chama a si mesma**.
+Em poucas palavras, uma **função recursiva é uma função que chama a si mesma**, tal qual uma mão desenhando a outra. A obra acima, _Desenhando mãos_ (1948), é de autoria do artista holandês M. C. Escher (1898-1972). Entre seus mais de 2 mil desenhos, o tema da recursão como forma de construir ilusões óticas é bastante recorrente.
 
 ### 2) Quando usar
 Em linguagem de programação, a recursão é uma ferramenta extremamente poderosa e sintética para resolver problemas menores que se repetem até que uma condição de encerramento seja atingida.
@@ -29,7 +29,6 @@ Uma função recursiva é composta de pelo menos duas partes:
 Na matemática, potenciação ou exponenciação é a operação que multiplica um número por ele mesmo várias vezes. Por exemplo, 2 elevado a 4 significa multiplicar 2 por ele mesmo quatro vezes (isto é, 2 * 2 * 2 * 2). O resultado desta multiplicação é 16.
 
 Aqui, o passo a passo para realizar esta conta é:
-* 2 = 2
 * 2 * 2 = 4
 * 4 * 2 = 8
 * 8 * 2 = 16
@@ -68,12 +67,11 @@ Enquanto o expoente for diferente de zero, a estrutura de repetição `while` se
 
 |Chamada do `while`| `resultado` | `expoente` | `base` |
 |:----|:---|:---|:-----|
-|1ª chamada|`2`|4 - 1 = **`3`**| `2` |
-|2ª chamada|`4`|3 - 1 = **`2`**| `2` |
-|3ª chamada|`8`|2 - 1 = **`1`**| `2` |
-|4ª chamada|`16`|1 - 1 = **`0`**| `2` |
+|1ª chamada|2 * 2 = `4`|4 - 1 = **`3`**| `2` |
+|2ª chamada|4 x 2 = `8`|3 - 1 = **`2`**| `2` |
+|3ª chamada|8 x 2 = `16`|2 - 1 = **`1`**| `2` |
 
-Quando o expoente for igual a zero, o `while` é interrompido e a nossa função retornará `resultado = 16`.
+Na quarta chamada, o expoente será igual a zero (1 - 1 = 0). Consequentemente, o `while` é interrompido e a nossa função retornará `resultado = 16`.
 
 #### 4.2) Implementação de uma função de potência de forma recursiva
 
@@ -99,7 +97,7 @@ int	recursive_power(int base, int expoente)
 		resultado = base * ft_recursive_power(base, expoente - 1);
 
 	// CASO BASE
-	// power é igual a 0. Não há mais multiplicações a fazer,
+	// expoente é igual a 0. Não há mais multiplicações a fazer,
 	// então ele para a chamada de função recursiva e retorna
 	// o valor final da multiplicação
 	return (resultado);
@@ -127,15 +125,15 @@ int	recursive_power(int base, int expoente);
 
 int main(void)
 {
-	int	nb;
-	int	power;
+	int	base;
+	int expoente;
 
-	nb = 2;
-	power = 4;
+	base = 2;
+	expoente = 4;
 	printf("O resultado é: %d\n", \
-		iterative_power(nb, power));
+		iterative_power(base, expoente));
 	printf("O resultado é: %d\n", \
-		recursive_power(nb, power));
+		recursive_power(base, expoente));
 	return (0);
 } 
 
@@ -180,7 +178,7 @@ int	recursive_power(int base, int expoente)
 		resultado = base * ft_recursive_power(base, expoente - 1);
 
 	// CASO BASE
-	// power é igual a 0. Não há mais multiplicações a fazer,
+	// expoente é igual a 0. Não há mais multiplicações a fazer,
 	// então ele para a chamada de função recursiva e retorna
 	// o valor final da multiplicação
 	return (resultado);
@@ -193,4 +191,4 @@ Implemente em C duas funções: `fatorial_iterativo()` e `fatorial_recursivo()`.
 
 ### 7) Conclusão
 
-Espero que tenha gostado deste tutorial sobre funções recursivas. Quaisquer dúvidas que você tiver, entre em contato comigo [Ygor Sena](https://github.com/ygor-sena)
+Espero que tenha gostado deste tutorial sobre funções recursivas. Quaisquer dúvidas que você tiver, entre em contato comigo: [Ygor Sena](https://github.com/ygor-sena)
