@@ -61,6 +61,7 @@
 01. [Ponteiro para Função](/src/5-Avancado/1-Ponteiro-Para-Funcao.md)
 02. [Argumentos de Linha de Comando](/src/5-Avancado/2-Argumentos-de-linha-de-comando.md)
 03. [Função Recursiva](/src/5-Avancado/3-Função-Recursiva.md)
+03. [Implementação de estruturas de dados genéricas](/src/5-Avancado/4-ImplementacaoEdGenerica.md)
 
 ## Como Contribuir
 
