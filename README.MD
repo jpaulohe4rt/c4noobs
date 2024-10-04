@@ -61,7 +61,8 @@
 01. [Ponteiro para Função](/src/5-Avancado/1-Ponteiro-Para-Funcao.md)
 02. [Argumentos de Linha de Comando](/src/5-Avancado/2-Argumentos-de-linha-de-comando.md)
 03. [Função Recursiva](/src/5-Avancado/3-Função-Recursiva.md)
-03. [Implementação de estruturas de dados genéricas](/src/5-Avancado/4-ImplementacaoEdGenerica.md)
+04. [Implementação de estruturas de dados genéricas](/src/5-Avancado/4-ImplementacaoEdGenerica.md)
+05. [Programação Multithread](/src/5-Avancado/5-Threads.md)
 
 ## Como Contribuir
 
@@ -78,6 +79,7 @@ são **extremamente apreciadas**
 
 - **João Paulo Lima (jpaulohe4rt)** - _Developer & Member of He4rt Developers_  - [Twitter](https://twitter.com/jpaulohe4rt)
 - **Paulo Rievrs Oliveira** - _Developer & Member of He4rt Developers_ - [Linkedin](https://www.linkedin.com/in/paulo-rievrs/) - [Github](https://www.github.com/paulorievrs)
+- **JulioRats** - Computer Scientist - [Github](https://www.github.com/Julio-Rats)
 
 <p align="center">Made with 💜</p>
 
